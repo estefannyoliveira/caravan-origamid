@@ -1,0 +1,52 @@
+.box-shadow {
+    box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, .05),
+        0px 4px 8px 0px rgba(0, 0, 0, .05);
+}
+
+body {
+    padding-top: 92px;
+}
+
+a {
+    color: inherit;
+    text-decoration: none !important;
+}
+
+
+img {
+    max-width: 100% !important;
+}
+
+a:hover {
+    text-decoration: underline !important;
+}
+
+
+
+.icon {
+    height: 100px;
+}
+
+.blockquote-bg {
+    background: url('../img/bg-quote.jpg') center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#faq li,
+.style-mb li {
+    margin-bottom: 4px;
+    border-bottom: 1px solid #c8c3c3;
+}
+
+.footer-title {
+    font-size: 1rem;
+    color: #fff;
+}
+
+
+@media(max-width:767px) {
+    .blockquote-bg .display-4 {
+        font-size: 2.5rem;
+    }
+}
